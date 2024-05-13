@@ -86,8 +86,6 @@ HETZNER_RECORD_NAME='dyn'
 Si todo está apuntado dentro del archivo `/opt/hetzner-dns-tools/dyndns.sh`
 
 ```
-HETZNER_AUTH_API_TOKEN='<your-hetzner-dns-api-token>'
-
 */5 * * * * /opt/hetzner-dns-tools/dyndns.sh
 ```
 
